@@ -15,5 +15,8 @@ jobs:
     - name: get binutils-riscv64-linux-gnu
       run: sudo apt-get install binutils-riscv64-linux-gnu
 
+    - name: get gcc-10-riscv64-linux-gnu
+      run: sudo apt-get install gcc-10-riscv64-linux-gnu
+
     - name: build 
       run: make clean; make
