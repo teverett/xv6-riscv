@@ -12,8 +12,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: get libdatetime-perl
-      run: sudo apt-get install libdatetime-perl
+    - name: get binutils-riscv64-linux-gnu
+      run: sudo apt-get install binutils-riscv64-linux-gnu
 
     - name: build 
       run: make clean;make alt; make clean; make
