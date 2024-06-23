@@ -16,4 +16,4 @@ jobs:
       run: sudo apt-get install binutils-riscv64-linux-gnu
 
     - name: build 
-      run: make clean;make alt; make clean; make
+      run: make clean; make
