@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ riscv ]
   pull_request:
-    branches: [ main ]
+    branches: [ riscv ]
 jobs:
   build-ubuntu:
     runs-on: ubuntu-latest
